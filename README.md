@@ -24,4 +24,4 @@ purpose - Loan Purpose
 
 
 # Libraries
-pandas
+pandas, numpy
