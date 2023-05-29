@@ -3,18 +3,18 @@ Repo contain couple of finished project regarding Data Analytics, Where recruite
 
 # Deskripsi Data
 
-'children' - Total child in one family
-'days_employed' - Days user worked
-'dob_years' - User age in numbers
-'education' - User education been through
-'education_id' - User Education ID
-'family_status' - User Marital status
-'family_status_id' - User ID Marital Status
-'gender' - User gender
-'income_type' - Work type
-'debt' - User status on loan 
-'total_income' - Income in total
-'purpose' - Loan Purpose
+`children` - Total child in one family
+`days_employed` - Days user worked
+`dob_years` - User age in numbers
+`education` - User education been through
+`education_id` - User Education ID
+`family_status` - User Marital status
+`family_status_id` - User ID Marital Status
+`gender` - User gender
+`income_type` - Work type
+`debt` - User status on loan 
+`total_income` - Income in total
+`purpose` - Loan Purpose
 
 
 
