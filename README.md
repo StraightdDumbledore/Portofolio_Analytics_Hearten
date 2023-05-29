@@ -7,4 +7,5 @@ These are Data Analyst projects I completed when going through the Data Analyst 
 Projects | Descriptions | Libraries
 :-------- | :------------ | :-------- |
 <a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Big-City-Analytics" title="Big City Music Preference">Big City Music Preference</a></p> | Finding Music Prefference in two big cities. | pandas
+<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Kredit-Risk-Analysis" title="sdhjfsdfbsdb">sdfhshfbshjbfs</a></p> | sjdhfsdhbfka. | pandas
 
