@@ -20,6 +20,6 @@ Dataset
 
 # Purpose
 
-You are interested in analyzing a ride-sharing company named Zuber. Ride-sharing is a service that allows users to share rides with other users who are traveling in the same direction. To analyze Zuber, you can look at factors such as the number of trips taken and the impact of weather on the number of trips taken. You can also compare Zuber with its competitors12.
+Analyzing a ride-sharing company named Zuber. Ride-sharing is a service that allows users to share rides with other users who are traveling in the same direction. To analyze Zuber, you can look at factors such as the number of trips taken and the impact of weather on the number of trips taken. You can also compare Zuber with its competitors12.
 
 Regarding the impact of weather on ride-sharing services, research has shown that weather conditions can affect the demand for ride-sharing services. For example, extreme weather conditions such as heavy rain or snowfall can increase demand for ride-sharing services3.
