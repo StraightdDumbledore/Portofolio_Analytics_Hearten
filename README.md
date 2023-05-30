@@ -19,7 +19,7 @@ Repo contain couple of finished project regarding Data Analytics, Where recruite
 
 
 # Purpose
-- Know different different factor car can be sold 
+- Know different factor for a car can be sold in many other ways
 
 
 # Libraries
