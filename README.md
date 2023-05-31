@@ -31,8 +31,6 @@ The dataset includes the following fields:
     
     
 # Purposes
-- 
-Sure, here is the paraphrased version of the paragraph:
 
 The international online store has asked us to complete an analytical task that their predecessor started but failed to complete. The predecessor launched an A/B test but then quit their job to start a watermelon farm in Brazil. They left only the technical specifications and the test results for the experiment, which is named recommender_system_test.
 
