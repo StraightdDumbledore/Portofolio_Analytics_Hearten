@@ -1,17 +1,44 @@
 # Portofolio_Analytics_Hearten
 Repo contain couple of finished project regarding Data Analytics, Where recruiter can determine, some sort of level of capabilities for hiring the creator of the repository. 
 
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, Python (progamming languange), SQL, BI Tools: Tableau, Machine Learning and etc.
+# Data Description
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Credit-Risk-Analysis" title="Big City Music Preference">Big City Music Preference</a></p> | Finding Music Preference At Two Big Cities. | pandas
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Kredit-Risk-Analysis" title="identified correlation between on time payement with user background">Analyze User On Failed Payment </a></p> | Correlation between puncuality and user background. | pandas, numpy
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Factor-That-Make-a-Car-Salable" title="Analyze Factor Which All the Car can be sold in predetermined time">Analyze Factor Which All the Car can be sold in predetermined time </a></p> | Identified and giving suggestion the factors that effect the price of a Car | pandas, matplotlib, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Telecommunication-Company-Analysis" title="Telecomunication Company Analysis for New Plan">Telecomunication Company Analysis for New Plan</a></p> | Analyze Factor for Making a New Plan for current and New User | pandas, numpy, matplotlib, scipy, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/5.-Analisis-Ride-Sharing-CompanyOptimize-Marketing-Marketing-Budget-for-Online-Shop" title="Analyzing a ride-sharing company named Zuber">Analyzing a ride-sharing company named Zuber</a></p> | Analyzing patterns to understand passenger preferences and the impact of external factors on travel” is a phrase that refers to the process of examining data to identify trends and patterns in passenger behavior | pandas, matplotlib, scipy, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/6.-Optimize-the-Marketing-Budget-on-the-Online-Shop-Website" title="Analyzing budget for e commerce named Y Ashifa">Analyzing budget for e commerce named Y Ashifa</a></p> | Assist in maximizing the effectiveness of the marketing budget by analyzing relevant metrics | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/7.-Analysis-of-Revenue-in-an-Online-Store">Revenue Analysis E commerce </a></p> | prioritize hypotheses in order to increase revenue, run A/B testing, and analyze the results | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/8.-Market-Research-Related-to-Restaurants-in-LA">Analyze the potential  businesses in LA </a></p> | Analyze the potential of chain-based businesses and identify opportunities for growth | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/9.-User-Behavior-Analysis-of-the-Food-Company-Application">Invistigare user behavioral on the app to improve the app</a></p> | To understand how users interact with the Food Company app, we used event-based analytics to track their behavior. This allowed us to identify trends and patterns in user behavior, which we can use to improve the app| pandas, numpy, matplotlib, scipy, seaborn, warnings
+The dataset includes the following fields:
+
+- `final_ab_new_users_upd_us.csv` — contains information about all users who signed up in the online store from December 7 to 21, 2020. The fields in this file are:
+- `final_ab_events_upd_us.csv` — contains information about all events that occurred for new users within the period from December 7, 2020 to January 1, 2021. The fields in this file are:
+- `final_ab_participants_upd_us.csv` -contains information about the users who participated in the experiment. The fields in this file are:
+
+1. Structure of `final_ab_new_users_upd_us.csv`:
+
+- `user_id` - The unique identifier for the user
+- `first_date` — The date the user signed up
+- `region` - The region of the world where the user signed up
+- `device` — The device the user used to sign up
+
+2. Structure of `final_ab_events_upd_us.csv`:
+
+- `user_id`
+- `event_dt` — The date and time of the event
+- `event_name` —The name of the event
+- `details` — Additional data about the event, such as the order total in USD for purchase events
+
+3. Structure of `final_ab_participants_upd_us.csv`:
+
+- `user_id`
+- `ab_test` — test name
+- `group` — the test group the user belonged to
+    
+    
+# Purposes
+- 
+Sure, here is the paraphrased version of the paragraph:
+
+The international online store has asked us to complete an analytical task that their predecessor started but failed to complete. The predecessor launched an A/B test but then quit their job to start a watermelon farm in Brazil. They left only the technical specifications and the test results for the experiment, which is named recommender_system_test.
+
+We will need to use the technical specifications and the test results to complete the analytical task. This will involve analyzing the data to determine which version of the recommender system performed better. We will then need to write a report that summarizes our findings and makes recommendations for how the online store can improve their recommender system.
+
+- Then, we have to rerun the A/B test to testing changes of the number of events related to the introduction of an improved recommendation system.
+
+# Libraries
+*pandas, numpy, matplotlib, seaborn, plotly, scipy, math* 
