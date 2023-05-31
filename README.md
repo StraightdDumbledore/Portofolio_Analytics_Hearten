@@ -1,17 +1,37 @@
 # Portofolio_Analytics_Hearten
 Repo contain couple of finished project regarding Data Analytics, Where recruiter can determine, some sort of level of capabilities for hiring the creator of the repository. 
 
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, Python (progamming languange), SQL, BI Tools: Tableau, Machine Learning and etc.
+# Data Description
+    
+The dataset includes the following fields:
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Credit-Risk-Analysis" title="Big City Music Preference">Big City Music Preference</a></p> | Finding Music Preference At Two Big Cities. | pandas
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Kredit-Risk-Analysis" title="identified correlation between on time payement with user background">Analyze User On Failed Payment </a></p> | Correlation between puncuality and user background. | pandas, numpy
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Factor-That-Make-a-Car-Salable" title="Analyze Factor Which All the Car can be sold in predetermined time">Analyze Factor Which All the Car can be sold in predetermined time </a></p> | Identified and giving suggestion the factors that effect the price of a Car | pandas, matplotlib, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/Telecommunication-Company-Analysis" title="Telecomunication Company Analysis for New Plan">Telecomunication Company Analysis for New Plan</a></p> | Analyze Factor for Making a New Plan for current and New User | pandas, numpy, matplotlib, scipy, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/5.-Analisis-Ride-Sharing-CompanyOptimize-Marketing-Marketing-Budget-for-Online-Shop" title="Analyzing a ride-sharing company named Zuber">Analyzing a ride-sharing company named Zuber</a></p> | Analyzing patterns to understand passenger preferences and the impact of external factors on travel” is a phrase that refers to the process of examining data to identify trends and patterns in passenger behavior | pandas, matplotlib, scipy, seaborn
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/6.-Optimize-the-Marketing-Budget-on-the-Online-Shop-Website" title="Analyzing budget for e commerce named Y Ashifa">Analyzing budget for e commerce named Y Ashifa</a></p> | Assist in maximizing the effectiveness of the marketing budget by analyzing relevant metrics | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/7.-Analysis-of-Revenue-in-an-Online-Store">Revenue Analysis E commerce </a></p> | prioritize hypotheses in order to increase revenue, run A/B testing, and analyze the results | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/8.-Market-Research-Related-to-Restaurants-in-LA">Analyze the potential  businesses in LA </a></p> | Analyze the potential of chain-based businesses and identify opportunities for growth | pandas, numpy, matplotlib, scipy, seaborn, warnings
-<a href="https://github.com/StraightdDumbledore/Portofolio_Analytics_Hearten/tree/9.-User-Behavior-Analysis-of-the-Food-Company-Application">Invistigare user behavioral on the app to improve the app</a></p> | To understand how users interact with the Food Company app, we used event-based analytics to track their behavior. This allowed us to identify trends and patterns in user behavior, which we can use to improve the app| pandas, numpy, matplotlib, scipy, seaborn, warnings
+- `'Churn'` — the fact of churn for the month in question
+
+
+- Current dataset fields:
+    - User data for the preceding month
+        - `gender`
+        - `'Near_Location'` — whether the user lives or works in the neighborhood where the gym is located
+        - `'Partner'` — whether the user is an employee of a partner company (the gym has partner companies whose employees get discounts; in those cases the gym stores information on customers' employers)
+        - `Promo_friends` — whether the user originally signed up through a "bring a friend" offer (they used a friend's promo code when paying for their first membership)
+        - `'Phone'` — whether the user provided their phone number
+        - `'Age'`
+        - `'Lifetime'` — the time (in months) since the customer first came to the gym
+        
+- Data from the log of visits and purchases and data on current membership status
+    - `'Contract_period'` — 1 month, 3 months, 6 months, or 1 year
+    - `'Month_to_end_contract'` — the months remaining until the contract expires
+    - `'Group_visits'` — whether the user takes part in group sessions
+    - `'Avg_class_frequency_total'` — average frequency of visits per week over the customer's lifetime
+    - `'Avg_class_frequency_current_month'` — average frequency of visits per week over the preceding month
+    - `'Avg_additional_charges_total'` — the total amount of money spent on other gym services: cafe, athletic goods, cosmetics, massages, etc.
+
+# Purposes
+- Identify target groups. The company can identify the different types of customers that are most likely to churn. This can help the company to focus its efforts on improving customer service for these customers.
+- Suggest measures to cut churn. The company can suggest measures to cut churn, such as offering discounts, providing better customer support, or making changes to the product or service.
+- Describe any other patterns you see with respect to interaction with customers. The company can describe any other patterns that it sees with respect to customer interaction. This information can be used to improve customer service and reduce churn.
+        
+# Libraries
+*pandas, numpy, matplotlib, scipy, sklearn, seaborn, warnings* 
+
+
